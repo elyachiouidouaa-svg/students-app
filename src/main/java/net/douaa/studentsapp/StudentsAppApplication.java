@@ -29,6 +29,23 @@ public class StudentsAppApplication implements CommandLineRunner {
         System.out.println(product.getName());
         System.out.println(product.getQuantity());
         System.out.println("**********");
+        System.out.println("---------------------");
+        productRepository.findByNameContains("c");
+        List<Product> productsList = productRepository.findByNameContains("c");
+        productsList.forEach(p->{
+            System.out.println(p);
+        });
+        System.out.println("---------------------");
+        List<Product> productsList2 = productRepository.search("%c%");
+        productsList2.forEach(p->{
+            System.out.println(p);
+        });
+        System.out.println("---------------------");
+        List<Product> productsList3 = productRepository.searchByPrice(3000);
+        productsList3.forEach(p->{
+            System.out.println(p);
+        });
+
     }
 
 
