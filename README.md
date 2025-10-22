@@ -42,7 +42,7 @@
 ### 4- Tester quelques opérations de gestion des produits
 #### Une fois l’interface *ProductRepository* créée, nous pouvons tester plusieurs opérations de gestion de produits.  
 #### Spring Boot permet de le faire directement depuis la classe principale *StudentsAppApplication.java*.
-#### Dans cette partie, nous avons testé plusieurs opérations de gestion des produits, telles que l’ajout, la consultation, la recherche, la mise à jour et la suppression.
+#### Dans cette partie, nous avons testé plusieurs opérations de gestion des produits, telles que l’ajout, la consultation, la recherche.
 #### Pour la recherche, nous avons utilisé deux méthodes principales :
 #### findById, findByName et findAll, qui permettent de retrouver un produit à partir de son identifiant ou de son nom.
 #### searchByPrice, une méthode personnalisée permettant de rechercher les produits selon leur prix.
@@ -63,6 +63,7 @@
 <img width="959" height="492" alt="image" src="https://github.com/user-attachments/assets/fb37671e-605f-4415-b0e1-328af0e88d61" />
 
 ## Partie 2
+
 
 
 
