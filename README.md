@@ -19,7 +19,7 @@
 
 <img width="959" height="427" alt="image" src="https://github.com/user-attachments/assets/126a4b14-1fa3-4e8e-be96-fe5166a63959" />
 
-### 2- Configuration de l’unité de persistance
+### 2- Configurer l'unité de persistance dans le ficher application.properties 
 #### La configuration de la base de données a été effectuée dans le fichier *application.properties*.  
 #### Dans un premier temps, nous avons utilisé **H2 Database**, une base de données en mémoire intégrée à Spring Boot, idéale pour les tests et le développement.
 
@@ -33,7 +33,32 @@
 
 #### - *Résultats d’exécution* affichant les produits enregistrés dans la console
 
+### 3- Créer l'interface JPA Repository basée sur Spring data
+#### L’application utilise *Spring Data JPA* pour gérer la communication avec la base de données. Au lieu d’écrire manuellement du code SQL, nous avons créé une interface appelée *ProductRepository* qui permet à Spring Boot de générer automatiquement toutes les opérations nécessaires (ajout, suppression, mise à jour, recherche…).
+
+<img width="959" height="461" alt="image" src="https://github.com/user-attachments/assets/7fad4484-4588-4db0-bfe8-fdeb0de36941" />
+
 <img width="959" height="322" alt="dbaffiche" src="https://github.com/user-attachments/assets/19c9cd30-9068-40ca-a5f5-629531e8a6bb" />
+
+### 4- Tester quelques opérations de gestion des produits
+#### Une fois l’interface *ProductRepository* créée, nous pouvons tester plusieurs opérations de gestion de produits.  
+#### Spring Boot permet de le faire directement depuis la classe principale *StudentsAppApplication.java*.
+#### Dans cette partie, nous avons testé plusieurs opérations de gestion des produits, telles que l’ajout, la consultation, la recherche, la mise à jour et la suppression.
+#### Pour la recherche, nous avons utilisé deux méthodes principales :
+#### findById, findByName et findAll, qui permettent de retrouver un produit à partir de son identifiant ou de son nom.
+#### searchByPrice, une méthode personnalisée permettant de rechercher les produits selon leur prix.
+
+<img width="958" height="484" alt="date H2" src="https://github.com/user-attachments/assets/c2c11f7d-d8f2-49c9-8ea6-27ab06bc3a2a" />
+
+<img width="958" height="464" alt="test" src="https://github.com/user-attachments/assets/4ce44148-e3d9-4fed-a6c3-4cf67b6537c5" />
+
+<img width="959" height="467" alt="image" src="https://github.com/user-attachments/assets/45c79297-98fc-43c6-aba7-f3de9108d3d0" />
+
+
+
+
+
+
 
 
 
