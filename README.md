@@ -3,7 +3,7 @@
 # Une application Spring Boot pour gérer les produits.
 ### L’application a pour objectif de faciliter la gestion des produits dans une entreprise. Elle permet d’ajouter, modifier, supprimer et consulter les étudiants enregistrés.  
 ### Grâce à une interface intuitive et une base de données intégrée *H2*, les opérations de gestion sont rapides et accessibles. Par la suite, la connexion a été migrée vers une base de données *MySQL*, afin d’assurer une meilleure persistance et une gestion plus réaliste des données.
-
+## Partie 1 
 # Fonctionnalités principales
 #### - Ajouter un nouvel étudiant  
 #### - Modifier les informations d’un étudiant  
@@ -50,6 +50,25 @@
 <img width="958" height="484" alt="date H2" src="https://github.com/user-attachments/assets/c2c11f7d-d8f2-49c9-8ea6-27ab06bc3a2a" />
 
 <img width="959" height="467" alt="image" src="https://github.com/user-attachments/assets/45c79297-98fc-43c6-aba7-f3de9108d3d0" />
+
+### 5-Migrer de H2 Database vers MySQL
+#### Dans cette partie, nous avons effectué la migration de la base de données H2 vers MySQL.
+#### L’objectif de cette étape est de passer d’une base de données en mémoire (utilisée principalement pour les tests) à une base de données réelle et persistante. Pour cela, nous avons modifié la configuration du fichier application.properties afin de remplacer les paramètres de connexion H2 par ceux de MySQL (URL, nom d’utilisateur, mot de passe et nom de la base).
+#### Cette migration permet de conserver les données de manière permanente et de rendre l’application plus proche d’un environnement de production.
+
+#### Nous avons ajouté le code de configuration correspondant dans le fichier application.properties, puis nous avons vérifié le résultat sur phpMyAdmin afin de confirmer que la connexion avec la base de données MySQL a bien été établie et que les tables ont été créées correctement.
+
+<img width="959" height="422" alt="image" src="https://github.com/user-attachments/assets/cdcf8b93-410d-4fe1-8de0-48d9f7556008" />
+
+<img width="959" height="492" alt="image" src="https://github.com/user-attachments/assets/fb37671e-605f-4415-b0e1-328af0e88d61" />
+
+## Partie 2
+
+
+
+
+
+
 
 
 
