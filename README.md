@@ -49,9 +49,8 @@
 
 <img width="958" height="484" alt="date H2" src="https://github.com/user-attachments/assets/c2c11f7d-d8f2-49c9-8ea6-27ab06bc3a2a" />
 
-<img width="958" height="464" alt="test" src="https://github.com/user-attachments/assets/4ce44148-e3d9-4fed-a6c3-4cf67b6537c5" />
-
 <img width="959" height="467" alt="image" src="https://github.com/user-attachments/assets/45c79297-98fc-43c6-aba7-f3de9108d3d0" />
+
 
 
 
