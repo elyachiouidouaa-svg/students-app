@@ -32,13 +32,12 @@
 <img width="959" height="470" alt="db" src="https://github.com/user-attachments/assets/3561d8d5-30b3-4dd2-865e-7126e03751c0" />
 
 #### - *Résultats d’exécution* affichant les produits enregistrés dans la console
+<img width="959" height="322" alt="dbaffiche" src="https://github.com/user-attachments/assets/19c9cd30-9068-40ca-a5f5-629531e8a6bb" />
 
 ### 3- Créer l'interface JPA Repository basée sur Spring data
 #### L’application utilise *Spring Data JPA* pour gérer la communication avec la base de données. Au lieu d’écrire manuellement du code SQL, nous avons créé une interface appelée *ProductRepository* qui permet à Spring Boot de générer automatiquement toutes les opérations nécessaires (ajout, suppression, mise à jour, recherche…).
 
 <img width="959" height="461" alt="image" src="https://github.com/user-attachments/assets/7fad4484-4588-4db0-bfe8-fdeb0de36941" />
-
-<img width="959" height="322" alt="dbaffiche" src="https://github.com/user-attachments/assets/19c9cd30-9068-40ca-a5f5-629531e8a6bb" />
 
 ### 4- Tester quelques opérations de gestion des produits
 #### Une fois l’interface *ProductRepository* créée, nous pouvons tester plusieurs opérations de gestion de produits.  
@@ -53,6 +52,7 @@
 <img width="958" height="464" alt="test" src="https://github.com/user-attachments/assets/4ce44148-e3d9-4fed-a6c3-4cf67b6537c5" />
 
 <img width="959" height="467" alt="image" src="https://github.com/user-attachments/assets/45c79297-98fc-43c6-aba7-f3de9108d3d0" />
+
 
 
 
