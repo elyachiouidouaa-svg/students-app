@@ -28,7 +28,14 @@
 #### spring.datasource.url=jdbc:h2:mem:products-db
 #### spring.h2.console.enabled=true
 
+#### - *Console H2* accessible depuis `http://localhost:8085/h2-console`
 <img width="959" height="470" alt="db" src="https://github.com/user-attachments/assets/3561d8d5-30b3-4dd2-865e-7126e03751c0" />
+
+#### - *Résultats d’exécution* affichant les produits enregistrés dans la console
+
+<img width="959" height="322" alt="dbaffiche" src="https://github.com/user-attachments/assets/19c9cd30-9068-40ca-a5f5-629531e8a6bb" />
+
+
 
 
 
