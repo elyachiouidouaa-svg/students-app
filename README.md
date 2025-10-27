@@ -62,7 +62,7 @@
 
 <img width="959" height="492" alt="image" src="https://github.com/user-attachments/assets/fb37671e-605f-4415-b0e1-328af0e88d61" />
 
-## Partie 2
+
 
 
 
